@@ -1,0 +1,292 @@
+
+.sandTile{
+	width:35px;
+	height:35px;
+	background-color:green;
+	display: inline-block;
+	background-image: url(textures/sandTile.png);
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.dirtTile{
+	width:35px;
+	height:35px;
+	background-color:green;
+	display: inline-block;
+	background-image: url(textures/dirtTile.png);
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.grassTile{
+	width:35px;
+	height:35px;
+	background-color:green;
+	display: inline-block;
+	background-image: url(textures/grassTile.png);
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.waterTile{
+	width:35px;
+	height:35px;
+	background-color:green;
+	display: inline-block;
+	background-image: url(textures/waterTile.png);
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.lightStone{
+	width:35px;
+	height:35px;
+	background-color:blue;	
+	display: inline-block;
+	background-image: url(textures/sand09.jpg);
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.darkStone{
+	width:35px;
+	height:35px;
+	background-color:brown;
+	display: inline-block;
+	background-image: url(textures/ground04.jpg);
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.lightGrass{
+	width:35px;
+	height:35px;
+	background-color:blue;	
+	display: inline-block;
+	background-image: url(textures/grass14.jpg);
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.darkGrass{
+	width:35px;
+	height:35px;
+	background-color:black;	
+	display: inline-block;
+	background-image: url(textures/grass02.jpg);
+	z-index:-1;	
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.water{
+	width:35px;
+	height:35px;
+	background-color:green;
+	display: inline-block;
+	background-image: url(textures/ocean.jpg);
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.white{
+	width:35px;
+	height:35px;
+	background-color:white;
+	display: inline-block;
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.black{
+	width:35px;
+	height:35px;
+	background-color:black;
+	display: inline-block;
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.blue{
+	width:35px;
+	height:35px;
+	background-color:blue;
+	display: inline-block;
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.green{
+	width:35px;
+	height:35px;
+	background-color:green;
+	display: inline-block;
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.red{
+	width:35px;
+	height:35px;
+	background-color:red;
+	display: inline-block;
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.orange{
+	width:35px;
+	height:35px;
+	background-color:orange;
+	display: inline-block;
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.yellow{
+	width:35px;
+	height:35px;
+	background-color:yellow;
+	display: inline-block;
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+.purple{
+	width:35px;
+	height:35px;
+	background-color:purple;
+	display: inline-block;
+	z-index:-1;
+	line-height:100%;
+	margin: 0;
+	padding: 0;
+}
+#menu{
+	position:absolute;
+	background-image: url(textures/sand09.jpg);
+	width:105px;
+	height:250px;
+	left:140px;
+	top:105px;
+	z-index:2;
+	border-style:ridge;
+	line-height:100%;
+}
+#subMenu{
+	position:absolute;
+	background-image: url(textures/sand09.jpg);
+	width:105px;
+	height:200px;
+	left:240px;
+	top:110px;
+	z-index:2;
+	border-style:ridge;
+	line-height:100%;
+}
+#attributesMenu{
+	position:absolute;
+	background-image: url(textures/sand09.jpg);
+	width:105px;
+	height:200px;
+	left:340px;
+	top:115px;
+	z-index:2;
+	border-style:ridge;
+	line-height:100%;
+	}
+#battleScreen{
+	width:350px;
+	height:350px;
+	z-index:-1;
+	border-style:ridge;
+	float:left;
+	background-color:black;
+	line-height:100%;
+	}
+#battleMenu{
+	background-image: url(textures/sand09.jpg);
+	position:absolute;
+	width:340px;
+	height:75px;
+	z-index:1;
+	border-Style:ridge;
+	left:10px;
+	top:275px;	
+	font-family:Arial,Helvetica,sans-serif;
+	line-height:100%;
+	
+	}
+#attackMenu{
+	float:left;
+	font-size:200%;
+	}
+	
+#itemMenu{
+	float:right;
+	font-size:200%;
+	}
+	
+#run{
+	float:left;
+	font-size:200%;
+	}
+	
+#showStats{
+	float:right;
+	font-size:200%;
+	}
+#exitSubBattleMenu{
+	float:right;
+	font-size:200%;
+	}
+#melee{
+	float:left;
+	font-size:200%;
+	}
+#shootEnemy{
+	float:right;
+	font-size:200%;
+	}
+#health{
+	float:left;
+	font-size:200%;
+	}
+#bullets{
+	float:right;
+	font-size:200%;
+	}
+#next
+{
+float:right;
+font-size:200%;
+}
+body
+{
+	color:black;
+	line-height:0px;
+}
+br
+{
+	line-height:0px;
+	margin: 0;
+	padding: 0;
+}
+
+	
