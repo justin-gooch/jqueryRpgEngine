@@ -7,7 +7,7 @@
  *
  * Author: Justin Gooch, wet-monkey games 
  * 
- *  licensed under the GPL license:
+ *  licensed under the GPL 1.0+ license:
  *   http://www.gnu.org/licenses/gpl.html 
  * 
  * all artwork property of wet-monkey 
